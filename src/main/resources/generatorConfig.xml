@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <context id="context" >
+    <plugin type="org.mybatis.generator.plugins.SerializablePlugin">  
+            <property name="suppressJavaInterface" value="false" />  
+    </plugin>
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://47.98.134.79/test1" userId="wubinbin" password="Wbb2018." />
+    <javaModelGenerator targetPackage="com.wbb.bean" targetProject="../ssm-example/src/main/java" />
+    <sqlMapGenerator targetPackage="com.wbb.mapper" targetProject="../ssm-example/src/main/resources/" />
+    <javaClientGenerator targetPackage="com.wbb.mapper" targetProject="../ssm-example/src/main/java" type="XMLMAPPER" />
+    <table tableName="logs" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+  </context>
+</generatorConfiguration>
