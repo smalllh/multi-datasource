@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-ssm example
+你好世界！
 </body>
 </html>
